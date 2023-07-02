@@ -9,12 +9,12 @@ After Save the entry user can downlaod the entries in PDF format.
 Install my-project with yarn.
 Open project in any code editor.
 
-Step 1 :  type
+Step 1 :
 ```bash
   yarn or npm install
 ```
 
-Step 2 :  type
+Step 2 :
 ```bash
   yarn dev or npm start
 ```
