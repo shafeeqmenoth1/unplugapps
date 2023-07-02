@@ -1,0 +1,119 @@
+    
+    .invoiceContainer{
+   
+       h2{
+        text-align: center;
+        font-weight: 500;
+        text-transform: uppercase;
+       } 
+        width: 100%;
+     .header{
+        display: flex;
+        justify-content: space-between;
+        .left{
+            flex: 1;
+            width: 100%;
+            .status {
+                padding: 5px 10px;
+              
+
+                &.active {
+                    background-color: rgb(166, 236, 159);
+                    color: rgb(1, 160, 14);
+                }
+                &.inactive {
+                    background-color: rgb(236, 159, 159);
+                    color: rgb(160, 1, 1);
+                }
+            }
+        }
+        .right {
+            flex: 1;
+            text-align: right;
+            font-weight: 300;
+            margin-top: 50px;
+            
+            .date {
+               
+                font-size: 16px;
+                font-weight: 400;
+            }
+            .rate {
+                font-size: 20px;
+                font-weight: 400;
+            }
+        }
+     }
+     .body{
+        border-bottom: 1px solid gray;
+        padding-bottom: 20px;
+        .bodyHeader{
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-around;
+            padding: 7px 15px;
+            background-color: lightgray;
+            font-weight: 600;
+        }
+        .itemBody{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+         
+
+            .item{
+                width: 100%;
+                text-align: center;
+                padding: 8px 0;
+            }
+        }
+     }
+     .footer{
+        display: flex;
+        justify-content: space-between;
+        .left{
+            flex: 1;
+            width: 100%;
+        
+        }
+        .right {
+            flex: 1;
+            text-align: right;
+            font-weight: 300;
+            margin-top: 50px;
+       
+            
+            .item{
+                padding: 20px;
+                border-bottom: 1px solid lightgray;
+            .amount{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                h4{
+                    margin: 0;
+         
+                }
+                span{
+                    margin: 0;
+                    font-weight: 300;
+                   
+                }
+                .gamount {
+                    font-size: 24px;
+                    font-weight: 600;
+                }
+            
+        }
+       
+    }
+    .gamountDiv{
+        border-bottom: 1px dotted lightgray;
+    }
+        }
+     }
+    }
+
+
+
+ 
